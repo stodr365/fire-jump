@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_player_air","path":"sprites/spr_player_air/spr_player_air.yy",},"order":0,},
     {"id":{"name":"spr_brick_tile","path":"sprites/spr_brick_tile/spr_brick_tile.yy",},"order":2,},
+    {"id":{"name":"obj_move_parent","path":"objects/obj_move_parent/obj_move_parent.yy",},"order":2,},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},"order":1,},

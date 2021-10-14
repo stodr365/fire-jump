@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_move_parent",
-    "path": "objects/obj_move_parent/obj_move_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_window",
+  "name": "obj_move_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

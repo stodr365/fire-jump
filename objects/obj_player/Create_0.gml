@@ -9,3 +9,10 @@ vspeed = -35;
 /// @DnDVersion : 1
 /// @DnDHash : 402F2B42
 gravity = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 76167CB4
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "jump_status"
+jump_status = 1;

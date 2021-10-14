@@ -1,24 +1,28 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 54FC0808
-/// @DnDArgument : "var" "vspeed"
-/// @DnDArgument : "op" "1"
-if(vspeed < 0)
+/// @DnDHash : 0F41EC72
+/// @DnDArgument : "var" "y"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "room_height+360"
+if(y > room_height+360)
 {
-	/// @DnDAction : YoYo Games.Common.Temp_Variable
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
-	/// @DnDHash : 042B9775
-	/// @DnDParent : 54FC0808
-	/// @DnDArgument : "var" "downspeed"
-	/// @DnDArgument : "value" "-vspeed"
-	var downspeed = -vspeed;
+	/// @DnDHash : 32791602
+	/// @DnDParent : 0F41EC72
+	/// @DnDArgument : "var" "new_x"
+	/// @DnDArgument : "var_temp" "1"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "min" "200"
+	/// @DnDArgument : "max" "room_width-200"
+	var new_x = floor(random_range(200, room_width-200 + 1));
 
-	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
-	/// @DnDHash : 09EB5EC4
-	/// @DnDParent : 54FC0808
-	/// @DnDArgument : "value" "downspeed"
-	/// @DnDArgument : "value_relative" "1"
-	/// @DnDArgument : "instvar" "1"
-	y += downspeed;
+	/// @DnDHash : 1E0F3117
+	/// @DnDParent : 0F41EC72
+	/// @DnDArgument : "x" "new_x"
+	/// @DnDArgument : "y" "-200"
+	x = new_x;
+	y = -200;
 }

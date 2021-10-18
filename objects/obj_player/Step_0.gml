@@ -66,24 +66,17 @@ if(y < room_height/2)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5C1FF81B
-/// @DnDArgument : "var" "grounded"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1"
-if(grounded >= 1)
+/// @DnDHash : 4543E763
+/// @DnDArgument : "var" "vspeed"
+/// @DnDArgument : "op" "2"
+if(vspeed > 0)
 {
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 5DDF1B89
-	/// @DnDParent : 5C1FF81B
-	/// @DnDArgument : "type" "2"
-	vspeed = 0;
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 3BD5EBC2
-	/// @DnDParent : 5C1FF81B
-	/// @DnDArgument : "expr" "2"
-	/// @DnDArgument : "var" "jump_status"
-	jump_status = 2;
+	/// @DnDHash : 6CFCDEE0
+	/// @DnDParent : 4543E763
+	/// @DnDArgument : "spriteind" "spr_player_fall"
+	/// @DnDSaveInfo : "spriteind" "spr_player_fall"
+	sprite_index = spr_player_fall;
+	image_index = 0;
 }

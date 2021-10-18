@@ -5,6 +5,14 @@
 /// @DnDArgument : "type" "2"
 vspeed = -35;
 
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 6E444FB7
+/// @DnDArgument : "spriteind" "spr_player_jump"
+/// @DnDSaveInfo : "spriteind" "spr_player_jump"
+sprite_index = spr_player_jump;
+image_index = 0;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6AEDC267

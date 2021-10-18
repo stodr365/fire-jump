@@ -14,6 +14,15 @@ if(jump_status >= 1)
 	/// @DnDArgument : "type" "2"
 	vspeed = -35;
 
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 1640F957
+	/// @DnDParent : 23ECB7E6
+	/// @DnDArgument : "spriteind" "spr_player_air"
+	/// @DnDSaveInfo : "spriteind" "spr_player_air"
+	sprite_index = spr_player_air;
+	image_index = 0;
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 653A3744

@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
-/// @DnDHash : 39EF94E8
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "grounded"
-grounded = 1;
+/// @DnDHash : 60F9A162
+/// @DnDArgument : "speed" "-35"
+/// @DnDArgument : "type" "2"
+vspeed = -35;

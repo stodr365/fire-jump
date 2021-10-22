@@ -16,3 +16,15 @@ gravity = 1;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "jump_status"
 jump_status = 1;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0E51CC1D
+/// @DnDArgument : "var" "score_rescue"
+global.score_rescue = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 54C85531
+/// @DnDArgument : "var" "score_total"
+global.score_total = 0;

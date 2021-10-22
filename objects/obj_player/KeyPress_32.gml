@@ -29,4 +29,13 @@ if(jump_status >= 1)
 	/// @DnDParent : 23ECB7E6
 	/// @DnDArgument : "var" "jump_status"
 	jump_status = 0;
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 701A8B36
+	/// @DnDParent : 23ECB7E6
+	/// @DnDArgument : "value" "-1"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "global.score_total"
+	global.score_total += -1;
 }

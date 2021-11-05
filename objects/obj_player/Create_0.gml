@@ -28,3 +28,9 @@ global.score_rescue = 0;
 /// @DnDHash : 54C85531
 /// @DnDArgument : "var" "score_total"
 global.score_total = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 4B139A19
+/// @DnDArgument : "var" "score_height"
+global.score_height = 0;
